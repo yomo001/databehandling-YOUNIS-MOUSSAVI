@@ -13,6 +13,9 @@ openpyxl = "*"
 scikit-learn = "*"
 jinja2 = "*"
 lxml = "*"
+plotly-express = "*"
+nbformat = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
