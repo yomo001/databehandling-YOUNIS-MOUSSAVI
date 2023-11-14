@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+ 
+h1 {
+    color: #333;
+}
+ 
+h2 {
+    color: #0066cc;
+}
+
+#my-ID {
+    color: #0066cc;
+}
+
+.purple-wingding
+{
+    color: purple;
+    font-family: Wingdings, sans-serif;
+}
+ 
+p {
+    line-height: 1.5;
+}
+ 
+ul {
+    list-style-type: square;
+}
+ 
+a {
+    color: #009900;
+    text-decoration: none;
+}
+ 
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+/* 
+CSS: Cascading style sheets:
+Prioritet på css: inline, internal, external.
+Prioritetsordning: taggar, klasser, id, inline.
+
+För varje tagg kan man lägga till en eller flera egenskaper.
+Man kan lägga specifika ID:n för taggar som en tagg kan ha
+Man kan sätta punkt som då gäller för en hel klass som man då kallas för detta, som flera taggar kan ha
+
+
+Difference between class and id:
+Class: can be used for multiple elements
+Id: can only be used for one element
+How to use class and id:
+Class: <p class="purple-wingding">This is a paragraph</p>
+Id: <p id="my-ID">This is a paragraph</p> 
+What does it mean that ID only can be used for one element?
+It means that you can only use it for one element, if you use it for more than one element it will not work.
+
+*/

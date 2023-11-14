@@ -16,6 +16,7 @@ lxml = "*"
 plotly-express = "*"
 nbformat = "*"
 python-dotenv = "*"
+dash = "*"
 
 [dev-packages]
 

@@ -1,0 +1,57 @@
+<html> 
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+<body>
+<h1>HTML demo</h1>
+<p class = "purple-wingding">This is a demo</p>
+
+<h2> Front vs backend</h2>
+<p><b>Frontend: </b>The client-side part of an application that focus on presenting stuff to the end-user</p>
+<p><b class = "purple-wingding">Backend: </b>The server-side part of an appliation that focus on the behind-the-scenes, logic, computations, and data storage.</p>
+</body>
+</html>
+
+<div>
+    <h2 id = "my-ID">3 basic web technologies:</h2>
+    <ul id="techList">
+        <li><b>HTML:</b> Markup language <span class="purple-wingding"> that describes</span> the layout and content of a static web page.</li>
+        <li><b>javascript:</b>Client side scripting language used to add dynamic functionality to a webpage. DOM object för HTML fil kan den komma åt och ändra sen</li>
+        <li><b>CSS:</b> A language used to style a webpage. Beskriver hur kategorier av element ska se ut, t.ex. alla h2 taggar ska ha viss färg, font osv</li>
+    </ul>
+</div>
+
+<h2>Links</h2>
+<a href="about.html">About this course.</a><br>
+<a href="https://github.com/everyloop/Databehandling-AI23">Gitrepo</a>
+
+
+
+<h2>Add a Technology:</h2>
+<button onclick="addTechnology()">Add Technology</button>   
+<script src="addTech.js"></script>
+
+
+<!-- # Hide own comments below
+Hemsida: En html fil på en server 
+URL: Man anropar servern och ber om den filen
+Server skickar tillbaka html filen som renderas på klientens skärm
+
+Frontend - det som läses i webbläsaren eller skärmen, inklusive javascript skriven i html filen
+Statiskt betyder frågar efter den på servern en gång och får allt, sedan körs allt på webläsaren.
+Backend - det som sker på servern, där databasen finns.
+Servern i efterhand kan skicka tillbaka saker till frontend, t.ex. en ny sida eller en ny bild i interaktion med frontend
+sidan beroende på hur den är skriven. 
+
+Övrigt info anteckningar om html:
+Bygger med taggar. Varje par av taggar är element och innehållet skrivs mellan elementet.
+Body är innehållet på själva sidan. 
+Han hänvisar till en länk på freecodecamp att läsa mer. 
+href är ett attribut (en tagg kan ha flera attribut) som är en länk till en annan sida. 
+Går att skriva både css och java i samma fil men rekommenderas göra separat
+Kan hänvisa till metoder i js direkt, men också skriva javakod direkt. T.ex. onclick=alert("hej")
+
+inom span taggar kan man lägga ngt för just de delarna, inklusive java grejer
+med div kan man göra saker för hela stycket
+
+-->
