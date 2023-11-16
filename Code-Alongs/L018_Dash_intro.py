@@ -14,7 +14,6 @@ app = Dash("__name__") # skapar en instans av Dash
 
 
 
-
 my_H1 = app.layout = html.H1(children= "My dash application.")  # skapar en layout för webbapplikationen
 my_H2 = html.H2(children = "More info ...")  # Behöver ej skriva ut children, men bara för tydlighetsskull
 my_dropdown = dcc.Dropdown(options = ["Äpple", "Päron", "Apelsin"], value="Päron")
