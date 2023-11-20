@@ -18,6 +18,9 @@ nbformat = "*"
 python-dotenv = "*"
 dash = "*"
 dash-bootstrap-components = "*"
+pycountry = "*"
+pycountry-convert = "*"
+geopy = "*"
 
 [dev-packages]
 
